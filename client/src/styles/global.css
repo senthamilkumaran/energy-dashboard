@@ -1,0 +1,51 @@
+:root {
+  --bg-deep: #0c1419;
+  --bg-panel: #121c24;
+  --bg-card: #18242f;
+  --border: #2a3d4d;
+  --text: #e8f0f6;
+  --text-muted: #8fa3b0;
+  --accent: #f5c518;
+  --accent-dim: #c9a012;
+  --solar: #4ade80;
+  --grid: #e85d4c;
+  --shell-red: #dd1d21;
+  font-family: "DM Sans", system-ui, sans-serif;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg-deep);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(ellipse 120% 80% at 50% -20%, #1a3040 0%, var(--bg-deep) 55%);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
